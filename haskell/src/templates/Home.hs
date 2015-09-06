@@ -1,6 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module Index where
+module Home where
 
 import Prelude hiding (id, head, div)
 import Text.Blaze.Html5

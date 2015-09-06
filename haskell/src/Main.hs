@@ -35,7 +35,7 @@ main = scotty 3000 $ do
   middleware $ staticPolicy (noDots >-> addBase "static")
 
   get "/" $
-    blaze Index.render
+    blaze Home.render
 
   post "/upload" $ do
     fs <- files

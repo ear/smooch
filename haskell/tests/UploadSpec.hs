@@ -6,9 +6,10 @@ import Test.Hspec
 import Upload
 import Control.Monad.Trans.Either
 import Network.Wai.Parse
+import System.Directory
+import qualified Data.ByteString.Lazy as BS
 
 {--
-
 shouldSucceed :: EitherT T.Text a -> a -> ??
 shouldSucceed m r = 
   if runEitherT m == Right ()
@@ -26,7 +27,6 @@ shouldFailWith m r =
   if runEitherT m == Left r 
     then True
     else False
-
 --}
 
 spec = do 
@@ -34,7 +34,7 @@ spec = do
     it "returns a Right () if the action completed" $
       runEitherT (tryIO $ return ()) `shouldReturn`
         Right ()
-    it "returns an exception as Text if not" $
+    it "returns a Left with a Text error message if not" $
       runEitherT (tryIO $ readFile "potato" >> return ()) `shouldReturn`
         Left "potato: openFile: does not exist (No such file or directory)"
   describe "getFile" $ 
@@ -52,6 +52,17 @@ spec = do
       runEitherT (getCNF "tests/samples") `shouldReturn` Right "okay\n"
     it "gives an error if no CNF is found" $
       runEitherT (getCNF "./") `shouldReturn` Left "No configuration file found."
-  describe "processSet" $ do
+  describe "processSet" $ 
     it "does a tooooooon of shit, fuck" $ 
       pendingWith "fuuuuuuuuuuuuuuuck"
+
+{--
+  describe "uploadSet" $ do
+    after_ $  
+      removeFile "tests/samples/sets/test.lzh" 
+    it "can take a test file and write it to the 'sets' directory" $ 
+        do
+          f <- BS.readFile "tests/samples/test.lzh"
+          r <- runEitherT (uploadSet [("", FileInfo "test.lzh" "" f)] "tests/samples")
+          return $ doesFileExist "tests/samples/sets/test.lzh"
+        `shouldReturn` (return True :: IO Bool)--}
