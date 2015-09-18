@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <assert.h>
 
@@ -221,7 +222,6 @@ int read_palette(const char *palfile) {
     char    header[32],
             file_mark,
             buffer[2],
-            buffer2[3],
             bpp;
     int     colors;
     int     i;
@@ -330,14 +330,22 @@ int main (int argc, char *argv[]) {
     char *input_file;
     char *palette_file;
     char *output_file;
-    int offset;
+    int offset,
+        exit_pal,
+	exit_cel;
     
     if (strncmp(argv[1], "-t", 2) == 0) {
       palette_file = argv[2];
       fprintf(stderr,"Read palette %s \n", palette_file);
-      read_palette (palette_file);
+      exit_pal = read_palette (palette_file);
+
+      if (exit_pal == -1) {
+          exit(EXIT_FAILURE);
+      }
+
       fprintf(stdout, "%s", transparent);
-      return 1;
+
+      exit(EXIT_SUCCESS);
     }
     else if (argc < 4) {
         fprintf(stderr, "Usage: cel2png (-d) (-t) <cel file> <palette file> <out file> \n");
@@ -367,13 +375,23 @@ int main (int argc, char *argv[]) {
     }
 
     fprintf(stderr,"Read palette %s \n", palette_file);
-    read_palette (palette_file);
+    exit_pal = read_palette (palette_file);
+
+    if (exit_pal == -1) {
+       exit(EXIT_FAILURE);
+    }
 
     fprintf(stderr,"Read cel %s \n", input_file);
-    convert_cel (input_file, output_file);
+    exit_cel = convert_cel (input_file, output_file);
+
+    if (exit_cel == -1) {
+	exit(EXIT_FAILURE);
+    }
     
     fprintf(stderr,"Done \n");
     
+    exit(EXIT_SUCCESS);
+
     return 1;
 
 }
