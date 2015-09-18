@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+#include <assert.h>
 
 unsigned char palette[256 * 3];
-char transparent[12]; // the red, green, blue of the transparent color, 
+char transparent[13]; // the red, green, blue of the transparent color, 
                      // as hex, with slashes between, prefaced by "rgb:"
                      // (for pnmtopng)
 int debug = 0;
@@ -220,6 +221,7 @@ int read_palette(const char *palfile) {
     char    header[32],
             file_mark,
             buffer[2],
+            buffer2[3],
             bpp;
     int     colors;
     int     i;
@@ -263,7 +265,8 @@ int read_palette(const char *palfile) {
         fprintf(stderr, "New style palette\n");
 
         n_read = fread(header+4, 28, 1, fppal);
-        if (n_read < 1) {
+        
+	if (n_read < 1) {
             fprintf(stderr, "Can't read palette header after \"KiSS\".\n");
         }
         
@@ -305,13 +308,14 @@ int read_palette(const char *palfile) {
                 // goes through fppal grabs 3 bytes colors times
                 // and stores it in palette
                 fread(palette, colors, 3, fppal);
-                break;
+                
+		break;
             default:
                 fprintf(stderr, "Invalid bits-per-pixel of %d", bpp);
         }
     }
 
-    sprintf(transparent, "rgb:%x/%x/%x", (unsigned) palette[0], 
+    sprintf(transparent, "rgb:%x/%x/%x", (unsigned) palette[0],
                                          (unsigned) palette[1],
                                          (unsigned) palette[2]);
 
