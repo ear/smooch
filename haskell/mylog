@@ -1,0 +1,474 @@
+
+chdir(src)
+fchdir() to previous dir
+chdir(/usr/share/vim)
+fchdir() to previous dir
+sourcing "$VIM/vimrc"
+finished sourcing $VIM/vimrc
+chdir(/Users/libby)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+Searching for "autoload/pathogen.vim" in "/Users/libby/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/autoload/pathogen.vim"
+chdir(/Users/libby/.vim/autoload)
+fchdir() to previous dir
+line 1: sourcing "/Users/libby/.vim/autoload/pathogen.vim"
+finished sourcing /Users/libby/.vim/autoload/pathogen.vim
+continuing in /Users/libby/.vimrc
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 3: sourcing "/usr/share/vim/vim73/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/syntax/synload.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/syntax/synload.vim"
+Searching for "/Users/libby/.vim/bundle/syntastic/syntax/synload.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/share/vim/vim73/syntax/synload.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim73/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/syntax/syncolor.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/syntax/syncolor.vim"
+Searching for "/Users/libby/.vim/bundle/syntastic/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim
+continuing in /usr/share/vim/vim73/syntax/synload.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/libby/.vim/after/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/synload.vim
+continuing in /usr/share/vim/vim73/syntax/syntax.vim
+Searching for "filetype.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/filetype.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/filetype.vim"
+Searching for "/Users/libby/.vim/bundle/syntastic/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 25: sourcing "/usr/share/vim/vim73/filetype.vim"
+Searching for "ftdetect/*.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/ftdetect/*.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/ftdetect/*.vim"
+Searching for "/Users/libby/.vim/bundle/syntastic/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/share/vim/vim73/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/Users/libby/.vim/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in /usr/share/vim/vim73/syntax/syntax.vim
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/libby/.vim/after/filetype.vim"
+finished sourcing /usr/share/vim/vim73/syntax/syntax.vim
+continuing in /Users/libby/.vimrc
+finished sourcing $HOME/.vimrc
+Searching for "plugin/**/*.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/plugin/**/*.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/plugin/**/*.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/plugin)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/nerdtree/plugin/NERD_tree.vim"
+Searching for "autoload/nerdtree.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/autoload/nerdtree.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/autoload/nerdtree.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/autoload)
+fchdir() to previous dir
+line 70: sourcing "/Users/libby/.vim/bundle/nerdtree/autoload/nerdtree.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/autoload/nerdtree.vim
+continuing in /Users/libby/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+Searching for "lib/nerdtree/path.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/path.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/path.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 1: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/path.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/path.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/menu_controller.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/menu_controller.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 2: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/menu_item.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/menu_item.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 3: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/key_map.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/key_map.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 4: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/bookmark.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/bookmark.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 5: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/tree_file_node.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/tree_file_node.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 6: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/tree_dir_node.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/tree_dir_node.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 7: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/opener.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/opener.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/opener.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 8: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/opener.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/opener.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/creator.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/creator.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/creator.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 9: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/creator.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/creator.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/flag_set.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/flag_set.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 10: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/nerdtree.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/nerdtree.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 11: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/ui.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/ui.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/ui.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 12: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/ui.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/ui.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/event.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/event.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/event.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 13: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/event.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/event.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/notifier.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/lib/nerdtree/notifier.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 14: sourcing "/Users/libby/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "autoload/nerdtree/ui_glue.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/autoload/nerdtree/ui_glue.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/autoload/nerdtree)
+fchdir() to previous dir
+line 145: sourcing "/Users/libby/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+continuing in /Users/libby/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+Searching for "nerdtree_plugin/**/*.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/nerdtree_plugin/**/*.vim"
+chdir(/Users/libby/.vim/bundle/nerdtree/nerdtree_plugin)
+fchdir() to previous dir
+line 5: sourcing "/Users/libby/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+continuing in function nerdtree#postSourceActions
+chdir(/Users/libby/.vim/bundle/nerdtree/nerdtree_plugin)
+fchdir() to previous dir
+line 5: sourcing "/Users/libby/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+continuing in function nerdtree#postSourceActions
+Searching for "/Users/libby/.vim/bundle/syntastic/nerdtree_plugin/**/*.vim"
+Searching for "/usr/share/vim/vimfiles/nerdtree_plugin/**/*.vim"
+Searching for "/usr/share/vim/vim73/nerdtree_plugin/**/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/libby/.vim/after/nerdtree_plugin/**/*.vim"
+finished sourcing /Users/libby/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+Searching for "/Users/libby/.vim/bundle/syntastic/plugin/**/*.vim"
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/autoloclist.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/autoloclist.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/balloons.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/balloons.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/checker.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/checker.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/cursor.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/cursor.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/highlighting.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/highlighting.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/loclist.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/loclist.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/modemap.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/modemap.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/notifiers.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/notifiers.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/registry.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/registry.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/signs.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/signs.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin)
+fchdir() to previous dir
+sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim"
+Searching for "autoload/syntastic/log.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/autoload/syntastic/log.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/autoload/syntastic/log.vim"
+Searching for "/Users/libby/.vim/bundle/syntastic/autoload/syntastic/log.vim"
+chdir(/Users/libby/.vim/bundle/syntastic/autoload/syntastic)
+fchdir() to previous dir
+line 28: sourcing "/Users/libby/.vim/bundle/syntastic/autoload/syntastic/log.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/autoload/syntastic/log.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+Searching for "autoload/syntastic/util.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/autoload/syntastic/util.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/autoload/syntastic/util.vim"
+Searching for "/Users/libby/.vim/bundle/syntastic/autoload/syntastic/util.vim"
+chdir(/Users/libby/.vim/bundle/syntastic/autoload/syntastic)
+fchdir() to previous dir
+line 47: sourcing "/Users/libby/.vim/bundle/syntastic/autoload/syntastic/util.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/autoload/syntastic/util.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+Calling shell to execute: "(uname) >/var/folders/qr/sg1fbycs14x_18lb4n6gd0_w0000gn/T/v1OLwTx/0"
+Searching for "plugin/syntastic/*.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/plugin/syntastic/*.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/plugin/syntastic/*.vim"
+Searching for "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/*.vim"
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 159: sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/autoloclist.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/autoloclist.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 159: sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/balloons.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/balloons.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 159: sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/checker.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/checker.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 159: sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/cursor.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/cursor.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 159: sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/highlighting.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/highlighting.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 159: sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/loclist.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/loclist.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 159: sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/modemap.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/modemap.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 159: sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/notifiers.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/notifiers.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 159: sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/registry.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/registry.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+chdir(/Users/libby/.vim/bundle/syntastic/plugin/syntastic)
+fchdir() to previous dir
+line 159: sourcing "/Users/libby/.vim/bundle/syntastic/plugin/syntastic/signs.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic/signs.vim
+continuing in /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+Searching for "/usr/share/vim/vimfiles/plugin/syntastic/*.vim"
+Searching for "/usr/share/vim/vim73/plugin/syntastic/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/plugin/syntastic/*.vim"
+Searching for "/Users/libby/.vim/after/plugin/syntastic/*.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/plugin/syntastic.vim
+Searching for "/usr/share/vim/vimfiles/plugin/**/*.vim"
+Searching for "/usr/share/vim/vim73/plugin/**/*.vim"
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/getscriptPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/getscriptPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/gzip.vim"
+finished sourcing /usr/share/vim/vim73/plugin/gzip.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/matchparen.vim"
+finished sourcing /usr/share/vim/vim73/plugin/matchparen.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/netrwPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/netrwPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/rrhelper.vim"
+finished sourcing /usr/share/vim/vim73/plugin/rrhelper.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/spellfile.vim"
+finished sourcing /usr/share/vim/vim73/plugin/spellfile.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/tarPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/tarPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/tohtml.vim"
+finished sourcing /usr/share/vim/vim73/plugin/tohtml.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/vimballPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/vimballPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/zipPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/zipPlugin.vim
+Searching for "/usr/share/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/Users/libby/.vim/after/plugin/**/*.vim"
+Reading viminfo file "/Users/libby/.viminfo" info oldfiles
+chdir(src)
+fchdir() to previous dir
+chdir(src)
+fchdir() to previous dir
+"src/Shell.hs" 
+"src/Shell.hs" 57L, 2477C
+Reading viminfo file "/Users/libby/.viminfo" marks
+Searching for "syntax/haskell.vim syntax/haskell/*.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/syntax/haskell.vim"
+Searching for "/Users/libby/.vim/syntax/haskell/*.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/syntax/haskell.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/syntax/haskell/*.vim"
+Searching for "/Users/libby/.vim/bundle/syntastic/syntax/haskell.vim"
+Searching for "/Users/libby/.vim/bundle/syntastic/syntax/haskell/*.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/haskell.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/haskell/*.vim"
+Searching for "/usr/share/vim/vim73/syntax/haskell.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 22: sourcing "/usr/share/vim/vim73/syntax/haskell.vim"
+finished sourcing /usr/share/vim/vim73/syntax/haskell.vim
+continuing in function <SNR>5_SynSet
+Searching for "/usr/share/vim/vim73/syntax/haskell/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/syntax/haskell.vim"
+Searching for "/usr/share/vim/vimfiles/after/syntax/haskell/*.vim"
+Searching for "/Users/libby/.vim/after/syntax/haskell.vim"
+Searching for "/Users/libby/.vim/after/syntax/haskell/*.vim"
+chdir(src)
+fchdir() to previous dir
+chdir(src)
+fchdir() to previous dir
+Searching for "syntax_checkers/haskell/*.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+Searching for "/Users/libby/.vim/syntax_checkers/haskell/*.vim"
+Searching for "/Users/libby/.vim/bundle/nerdtree/syntax_checkers/haskell/*.vim"
+Searching for "/Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell/*.vim"
+chdir(/Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell)
+fchdir() to previous dir
+line 5: sourcing "/Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell/ghc-mod.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell/ghc-mod.vim
+continuing in function <SNR>37_BufReadPostHook..<SNR>37_UpdateErrors..<SNR>37_CacheErrors..320..328
+chdir(/Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell)
+fchdir() to previous dir
+line 5: sourcing "/Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell/hdevtools.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell/hdevtools.vim
+continuing in function <SNR>37_BufReadPostHook..<SNR>37_UpdateErrors..<SNR>37_CacheErrors..320..328
+chdir(/Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell)
+fchdir() to previous dir
+line 5: sourcing "/Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell/hlint.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell/hlint.vim
+continuing in function <SNR>37_BufReadPostHook..<SNR>37_UpdateErrors..<SNR>37_CacheErrors..320..328
+chdir(/Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell)
+fchdir() to previous dir
+line 5: sourcing "/Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell/scan.vim"
+finished sourcing /Users/libby/.vim/bundle/syntastic/syntax_checkers/haskell/scan.vim
+continuing in function <SNR>37_BufReadPostHook..<SNR>37_UpdateErrors..<SNR>37_CacheErrors..320..328
+Searching for "/usr/share/vim/vimfiles/syntax_checkers/haskell/*.vim"
+Searching for "/usr/share/vim/vim73/syntax_checkers/haskell/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/syntax_checkers/haskell/*.vim"
+Searching for "/Users/libby/.vim/after/syntax_checkers/haskell/*.vim"
+Calling shell to execute: "(ghc-mod version) >/var/folders/qr/sg1fbycs14x_18lb4n6gd0_w0000gn/T/v1OLwTx/1 2>&1"
+Calling shell to execute: "(ghc-mod check --boundary="" src/Shell.hs) >/var/folders/qr/sg1fbycs14x_18lb4n6gd0_w0000gn/T/v1OLwTx/2 2>&1"
+syntastic: error: checker output:
+cabal: At least the following dependencies are missing:
+blaze-html -any,
+scotty -any,
+system-filepath -any,
+wai-extra -any,
+wai-middleware-static -any
+ghc-mod: readCreateProcess: cabal "configure" "--with-ghc=ghc" (exit 1): failed
+
+syntastic: error: checker haskell/ghc_mod returned abnormal status 1
+                                                                    chdir(src)
+                                                                    fchdir() to previous dir
+                                                                    Calling shell to execute: "(hlint /Users/libby/dev/smooch/haskell/src/Shell.hs) >/var/folders/qr/sg1fbycs14x_18lb4n6gd0_w0000gn/T/v1OLwTx/3 2>&1"
+                                                                    Searching for "autoload/syntastic/postprocess.vim" in "/Users/libby/.vim,/Users/libby/.vim/bundle/nerdtree,/Users/libby/.vim/bundle/syntastic,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/libby/.vim/after"
+                                                                    Searching for "/Users/libby/.vim/autoload/syntastic/postprocess.vim"
+                                                                    Searching for "/Users/libby/.vim/bundle/nerdtree/autoload/syntastic/postprocess.vim"
+                                                                    Searching for "/Users/libby/.vim/bundle/syntastic/autoload/syntastic/postprocess.vim"
+                                                                    chdir(/Users/libby/.vim/bundle/syntastic/autoload/syntastic)
+                                                                    fchdir() to previous dir
+                                                                    line 108: sourcing "/Users/libby/.vim/bundle/syntastic/autoload/syntastic/postprocess.vim"
+                                                                    finished sourcing /Users/libby/.vim/bundle/syntastic/autoload/syntastic/postprocess.vim
+                                                                    continuing in function <SNR>37_BufReadPostHook..<SNR>37_UpdateErrors..<SNR>37_CacheErrors..255..254..SyntaxCheckers_haskell_hlint_GetLocList..SyntasticMake
+
+Writing viminfo file "/Users/libby/.viminfo"

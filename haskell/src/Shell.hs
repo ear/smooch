@@ -39,7 +39,7 @@ convertCel palette cel bg base = do
   let pngFile = base <> "/" <> cel <> ".png"
   let paletteFile = base <> "/" <> palette
   runProgram ("analyzing cel " <> celFile) ("cel2pnm " <> paletteFile <> " " <> celFile <> " pnm")
-  runProgram ("converting to png " <> pngFile) ("/usr/bin/pnmtopng " <> " -transparent " <> bg <> " pnm > " <> pngFile)
+  runProgram ("converting to png " <> pngFile) ("pnmtopng " <> " -transparent " <> bg <> " pnm > " <> pngFile)
   runProgram "removing temp file" "rm pnm"
 
 runProgram :: String -> String -> EitherT T.Text IO ()

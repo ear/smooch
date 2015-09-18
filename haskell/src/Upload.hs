@@ -25,9 +25,9 @@ import Data.Aeson.Encode (encode)
 
 processSet :: [S.File] -> EitherT T.Text IO [KissCell]
 processSet files = do
-  file <- getFile files
-  let fname = fst file
-  let fcontents = snd file
+  (fname, fcontents) <- getFile files
+  --let fname = fst file
+  --let fcontents = snd file
   let staticDir = "static/sets/" <> takeBaseName fname
   tryIO $ B.writeFile ("static/sets" </> fname) fcontents
   tryIO $ createDirectoryIfMissing ("create parents" == "false") staticDir
