@@ -7,6 +7,7 @@ import           Test.Hspec
 
 import           Kiss
 import           Upload
+import           Process
 
 sampleCell :: KissCell
 sampleCell = KissCell 0 "shirt"  0 [0,1,2,3] 0 (Position 0 0)

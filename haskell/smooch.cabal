@@ -31,7 +31,8 @@ library
                        ParseCNF,
                        Shell,
                        Upload,
-                       Web
+                       Web,
+                       Process
   build-depends:       base,
                        aeson,
                        array,
@@ -66,7 +67,8 @@ test-suite tests
   main-is:             Spec.hs
   other-modules:       ParseCNFSpec,
                        ShellSpec,
-                       UploadSpec
+                       UploadSpec,
+                       ProcessSpec
   type:                exitcode-stdio-1.0
   build-depends:       base,
                        smooch,

@@ -21,13 +21,13 @@ import           Control.Monad              (when)
 import           Control.Monad.IO.Class     (liftIO)
 import           Control.Monad.Trans.Either
 import           Data.Monoid                ((<>))
-import           Data.Either.Combinators    (mapLeft)
 
 import           Data.Aeson                 (encode)
 
 import           Kiss
 import           ParseCNF
 import           Shell
+import           Process
 
 processSet :: (FilePath, FilePath) -> EitherT Text IO [KissCell]
 processSet (fName, filePath) = do
@@ -88,11 +88,6 @@ addOffsetsToCelData offsets cells =
 addCelsAndColorsToKissData :: CNFKissData -> Color -> Color -> [KissCell] -> KissData
 addCelsAndColorsToKissData (CNFKissData m _ p ws o) bgColor borderColor cels =
   KissData m borderColor bgColor p ws o cels
-
-tryIO :: IO a -> EitherT Text IO a
-tryIO m = EitherT $ mapLeft showIOException <$> try m
-  where
-    showIOException = T.pack . show :: IOException -> Text
 
 -- for now, only looks at first cnf listed
 getCNF :: FilePath -> EitherT Text IO String
